@@ -1,0 +1,10 @@
+
+footer ı en alta sabitlemek için;
+
+    body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+yaptık.
+Daha sonra footer ın margin-top: auto yaptık.

@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #35424A;
+    /* height: 3rem; */
+    padding: 0.9rem;
+    align-items: center;
+    color: white;
+    border-bottom: 2px solid #A9507A;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header span{
+    color: #A9507A;
+}
+
+.right {
+    display: flex;
+    gap: 1rem;
+}
+
+.page-1 {
+    display: flex;
+    background-image: url(./Images/showcase.jpg);
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    color: white;
+}
+
+.page-2 {
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.page-3 {
+    display: flex;
+    padding: 1rem;
+    gap: 3rem;
+
+}
+
+.dark {
+    background-color: #35424A;
+    color: white;
+}
+
+.left_div  p{
+    padding: 1rem;
+}
+
+.right_div{
+    background-color: #35424A;
+    color: white;
+    padding: 1rem;
+    height: 18rem;
+}
+
+
+.subs {
+    display: flex;
+    background-color: #35424A;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9rem;
+    color: white;
+}
+
+.subs button {
+    background-color: #E8491D;
+    color: white;
+    border: none;
+    padding: 0.3rem;
+}
+
+.subs input {
+    padding: 0.2rem;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1.5rem;
+    text-align: justify;
+}
+
+.option img {
+    width: 5rem;
+}
+
+.option div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+footer {
+    background-color: #35424A;
+    height: 5rem;
+    text-align: center;
+    padding: 0.8rem;
+    color: white;
+    margin-top: auto;
+}
+
+footer img {
+    height: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #35424A;
+    color: white;
+    padding: .8rem;
+    height: 33vh;
+}
+
+.form button{
+    background-color: #E8491D;
+    border: none;
+    width: 3.5rem;
+    padding: .2rem;
+    margin-top: .2rem;
+}
+
+.sol {
+    background-color:#E6E6E6;
+    padding: 1rem;
+    margin-top: .2rem;
+}
+
+.sol h4{
+    margin-bottom: .5rem;
+}
